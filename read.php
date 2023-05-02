@@ -11,10 +11,7 @@
     </style>
   </head>
 
-<div>
-        <a href="pdf.php" name="view"class="btn btn-info">Get pdf document</a><br>
-        <a href="export.php" class="btn btn-success"><i class="dwn"></i>Download csv</a>
-</div>
+
 
 <?php
 
@@ -60,4 +57,9 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 ?>
+<br>
+<div>
+        <a href="pdf.php" name="view"class="btn btn-info">Get pdf document</a><br>
+        <a href="export.php" class="btn btn-success"><i class="dwn"></i>Download csv</a>
+</div>
 </html>
